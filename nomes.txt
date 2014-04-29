@@ -1,0 +1,4 @@
+RA 06002780 - Everton Bruno Bernardi - Gerente
+RA 06008893 - Diogo Muneratto - Responsável pelo Controller
+RA 06008145 - Jhone William da Silva - Responsável pelo Model
+RA 06009035 - Geovane Lucca Rocco - Responsável pela View
