@@ -1,0 +1,4 @@
+Semana 1 - 05/05/2014 - 11/05/2014
+	- Análise e Elaboração do DER (Todos os recursos do projeto serão envolvidos);
+	- Criação dos primeiros itens do formulário (Responsável pela View);
+	- Definição das tecnologias adotadas para o projeto (Todos os recursos do projeto serão envolvidos);
