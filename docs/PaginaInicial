@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+	<title>Bem Vindo</title>
+		<style type="text/css">
+			body{
+				background-color:#efefef;
+				text-align:center;
+				font-family: 'Asap',sans-serif;
+				vertical-align: middle;
+ 
+			}
+			div{
+				margin-left:200px;
+				margin-right:200px;
+				border-style:solid;
+				border-width:1px;
+				border-color:grey;
+				border-radius:20px;
+				background-color: #fafafa;
+			}
+			div.topo{
+				margin-top:100px;				
+			}
+			div.conteudo{
+				margin-top:50px;
+			}
+			div.dados{
+				
+			}
+			
+			p{
+				margin-left:20px;
+				margin-right:20px;
+				text-align: center;
+				font-family: 'Asap',sans-serif;
+				vertical-align: middle;
+			}
+		
+		</style>
+ 
+	</head>
+	<body>
+		<div class="topo">
+			<h2>TERMO DE ADESAO - PROJETO CIAPE UNIPAR/ACIC</h2>
+		</div>
+			<div class="conteudo">
+				<p>Informacoes Gerais: o questionario destina-se exclusivamente a obtencao de informacoes
+				 das empresas participantes do projeto CIAPE - UNIPAR/ACIC. 
+				 Tem por finalidade criar indicadores que permitirao comparar a evolucao das empresas ao 
+			 	longo do processo. As informacoes deverao ser fornecidas pelo proprietario, considerando 
+			 	a real situacao da empresa. Nao sera divulgado nenhum tipo de informacoes contidas neste documento.
+			 	</p>
+		</div>
+		
+	<div id="Titulo">
+		<h1>Dados Cadastrais</h1>
+	</div>
+	<div id="dados">
+		<p>Razao Social: <input type="TEXT" name="RazaoSocail">  </p>
+		
+		<p>Nome Fantasia: <input type="TEXT" name="NomeFantasia">  </p>
+		
+		<p>CNPJ: <input type="TEXT" name="cnpj">  </p>
+		
+		<p>I.E: <input type="TEXT" name="ie">  </p>
+		
+		<p>Data de Fundacao: <input type="TEXT" name="dtFundacao">  
+			Ramo de Atividade: <input type="TEXT" name="RamoAtividade">  
+		</p>
+		
+		<p>Endereco: <input type="TEXT" name="endereco">
+			<p>Bairro: <input type="TEXT" name="bairro">
+		</p>
+		
+		<p>CEP: <input type="TEXT" name="cep">  
+			Cidade: <input type="TEXT" name="cidade">
+			UF: <input type="TEXT" name="uf">
+		</p>
+		
+		<p>Telefone: <input type="TEXT" name="telefone">
+			Email: <input type="TEXT" name="email">
+		</p>
+		
+		<p>Socios: <input type="TEXT" name="socios">
+			Cargo ocupado na Empresa: <input type="TEXT" name="cargos">
+		</p>
+		
+		<div id="dados">
+			<p>Quem sao seus Concorrentes?</p>
+			<p> <input type="TEXT" name="concorrente1">  </p>
+			<p> <input type="TEXT" name="concorrente2">  </p>
+			<p> <input type="TEXT" name="concorrente3">  </p>	
+	
+			<p>Voce visita a Concorrencia?</p>
+			<input type="radio" name="visitas" value="Sim">Sim<br>
+			<input type="radio" name="visitas" value="Nao">Nao<br>
+	
+			<p>Quais sao seus pontos fortes em relacaso a Concorrencia?</p>
+			<input type="checkbox" name="pfortes" value="0">Atendimento
+			<input type="checkbox" name="pfortes" value="1">Espaco Fisico
+			<input type="checkbox" name="pfortes" value="2">Estacionamento<br>
+			<input type="checkbox" name="pfortes" value="3">Localizacao
+			<input type="checkbox" name="pfortes" value="4">Variedade
+			<input type="checkbox" name="pfortes" value="5">Outros<br>
+	
+			<p>Quais sao seus pontos para melhoria em relação a concorrência?</p>
+			<input type="checkbox" name="melhorias" value="0">Atendimento
+			<input type="checkbox" name="melhorias" value="1">Espaco Fisico
+			<input type="checkbox" name="melhorias" value="2">Estacionamento<br>
+			<input type="checkbox" name="melhorias" value="3">Localizacao
+			<input type="checkbox" name="melhorias" value="4">Variedade
+			<input type="checkbox" name="melhorias" value="5">Outros<br>
+	
+			<p>Faz Promocoes?</p>
+			<input type="radio" name="promo" value="0">Mais de duas vezes por mes.<br>
+			<input type="radio" name="promo" value="1">Uma vez por mes.<br>
+			<input type="radio" name="promo" value="2">Nao, nunca faco.<br>
+	
+			<p>Quais menos utiliza?</p>
+			<input type="radio" name="propaganda" value="0">Radio<br>
+			<input type="radio" name="propaganda" value="1">Jornal<br>
+			<input type="radio" name="propaganda" value="2">Panfleto<br>
+			<input type="radio" name="propaganda" value="3">Outros<br>
+	
+	
+		</div>
+		</div>
+	</body>
+</html>
